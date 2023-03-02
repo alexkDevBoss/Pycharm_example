@@ -12,6 +12,7 @@ pipeline{
             steps{
                 sh "echo THIS IS PYTHON VERSION:"
                 sh "python3 --version"
+                sh "python3 first_example.py"
             }
         }
     }
